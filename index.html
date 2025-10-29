@@ -1,0 +1,400 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body class="scroll-smooth">
+  <div class="ml-8 mr-8">
+    <div class="total max-w-[1440px] mx-auto px-6">
+      <header class="flex justify-between items-center py-2">
+
+        <!-- Left: Logo + Nav -->
+        <div class="flex gap-7 items-center">
+          <img src="img/logo-color 1.png" alt="Logo"
+            class="h-10 cursor-pointer transition-transform duration-300 hover:scale-105" />
+
+          <nav class="flex gap-10 items-center text-[#5C5F6E] text-sm">
+            <a href="#" class="hover:text-[#651FFF] hover:scale-105 transition-all duration-300">Features</a>
+            <a href="#" class="hover:text-[#651FFF] hover:scale-105 transition-all duration-300">Solutions</a>
+            <a href="#" class="hover:text-[#651FFF] hover:scale-105 transition-all duration-300">NFT Storage</a>
+            <a href="#" class="hover:text-[#651FFF] hover:scale-105 transition-all duration-300">Pricing</a>
+            <a href="#" class="hover:text-[#651FFF] hover:scale-105 transition-all duration-300">Developers</a>
+            <a href="#" class="hover:text-[#651FFF] hover:scale-105 transition-all duration-300">Resources</a>
+          </nav>
+        </div>
+
+        <!-- Right: Buttons -->
+        <div class="flex gap-6 items-center text-[#5C5F6E] text-sm">
+          <h1 class="cursor-pointer hover:text-[#651FFF] transition-colors duration-300">App</h1>
+          <h1 class="cursor-pointer hover:text-[#651FFF] transition-colors duration-300">English</h1>
+
+          <div class="flex gap-4 items-center">
+            <!-- Sign In Button -->
+            <button type="button"
+              class="border border-[#651FFF] text-[#651FFF] hover:bg-[#651FFF] hover:text-white w-[122px] h-[42px] rounded-md font-medium transition-all duration-300 transform hover:scale-105">
+              Sign In
+            </button>
+
+            <!-- Create Account Button -->
+            <button type="button"
+              class="border border-[#651FFF] bg-[#651FFF] text-white hover:bg-[#5125d8] hover:shadow-lg hover:scale-105 transition-all duration-300 w-[160px] h-[42px] rounded-md font-medium">
+              Create an account
+            </button>
+          </div>
+        </div>
+      </header>
+
+
+      <div class="  flex flex-col text-center pt-9  bg-linear-to-r from-cyan-500 to-blue-500 Poppins ">
+        <img class="w-[723px] h-[452px] text-center mx-[309px]" src="img/Frame.png  ">
+        <h1 class="font-bold text-2xl whitespace-normal pt-[45px] ">Start pin new data on IPFS with Deupload</h1>
+        <p>Files uploaded to an IPFS bucket on Deupload are automatically pinned to IPFS and stored with 3x<br>
+          replication across the Deupload infrastructure by default, at no extra cost to you.</p>
+        <div class="py-4 px-6 pb-9 Poppins ">
+          <button
+            class="bg-[#2563eb] text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-[#1d4ed8] hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 font-bold">Getting
+            Started</button>
+          <button
+            class=" ml-3 border-[#2563eb] text-[#2563eb] font-semibold px-6 py-3 rounded-lg hover:bg-[#2563eb] hover:text-white hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 font-bold">Documentation</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="total max-w-[1440px] mx-auto px-6  ">
+      <div class="flex bg-[#E3E3E3] pl-[40px]">
+        <div class="pt-[154px] ml-9">
+          <h1 class="flex-col font-bold text-2xl font-Poppins leading-[33px] ">Why pin your data on <br> IPFS with
+            Deupload?</h1>
+          <p class="pt-4 text-[#5C5F6E] Poppins text-sm">
+            IPFS pinning can be configured on locally hosted IPFS<br> nodes, but for external, long-term storage, so
+            that's
+            why <br> DeUpload exists as an IPFS pinning service.
+          </p>
+          <h1 class="pt-9 text-[#5C5F6E] Poppins text-sm">With Deupload you get all the benefits of decentralized
+            <br>storage and other
+            cutting-edge <br>
+            protocols with the
+            frictionless experience you expect in a modern dev <br> workflow.Check out our docs pages to learn more.
+          </h1>
+          <div class="pt-[54px]  Poppins ">
+            <button
+              class="border-2 border-[#2563eb] text-[#2563eb] font-semibold px-6 py-3 rounded-lg hover:bg-[#2563eb] hover:text-white hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 hover:scale-105">Read
+              Docs</button>
+          </div>
+        </div>
+
+        <div class="pt-[90px] relative p-10 bg-[#E3E3E3] flex flex-col gap-10 ml-[142px] ">
+          <!-- Box 1 -->
+          <div class="flex gap-10 rounded-md shadow-md shadow-mt p-6 bg-[#FFFFFF]">
+            <img class="w-10 h-10" src="img/Vector.png" alt="">
+            <div class="bg-[#FFFFFF]">
+              <h1 class="text-lg font-semibold">Open</h1>
+              <p class="text-gray-600">
+                All data is accessible via IPFS and backed by <br>Sia network, with service
+                authentication using <br>decentralized identity.
+              </p>
+            </div>
+          </div>
+
+          <!-- Box 2 -->
+          <div class="flex  gap-4 rounded-md shadow-md p-6 bg-[#FFFFFF] ">
+            <img class="w-10 h-10 " src="img/shield-check 1.png" alt="">
+            <div class="bg-[#FFFFFF]">
+              <h1 class="text-lg font-semibold">Reliable</h1>
+              <p class="text-gray-600">
+                We take the best of web2 and web3 to provide <br>infra you can rely on to
+                scale with you<br>Frustration with decentralized storage is a thing of the
+                past.
+              </p>
+            </div>
+          </div>
+
+          <!-- Box 3 -->
+          <div class="flex  gap-4 rounded-md  shadow-md p-6 bg-[#FFFFFF]">
+            <img class="w-10 h-10" src="img/code .png" alt="">
+            <div class="bg-[#FFFFFF]">
+              <h1 class="text-lg font-semibold">Simple</h1>
+              <p class="text-gray-600">
+                Start storing in minutes using our simple client <br> library to see how
+                decentralized protocols can <br> work together to unlock your data layer.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="total max-w-[1440px] mx-auto px-6 ">
+      <div class="flex items-center  gap-58  bg-[#E0F7FA] pl-[40px]">
+        <div class="ml-9 pt-10 mr-9">
+          <img src="img/third.png" alt="" srcset="">
+        </div>
+        <div class="pt-10 pb-9 Poppins text-sm pr-7">
+          <h1 class="font-bold text-lg">What is IPFS Pinning?</h1>
+          <p class="mt-4 text-[#5C5F6E]">IPFS pinning refers to the process of specifying data to be <br>retained and
+            persist on one or more IPFS
+            nodes. Pinning assures <br>that data is accessible indefinitely, and will not be removed <br>during the IPFS
+            garbage collection process.</p>
+          <p class="mt-4 text-[#5C5F6E]">To protect data from the garbage collection process, data must <br>be pinned on
+            the IPFS network. This
+            ensures that data is retained <br>indefinitely and is always accessible. Pinning is useful for a <br>variety
+            of workflows, such as accessing data files from around <br>the world without managing sharing permissions.
+          </p>
+          <p class="mt-4 text-[#5C5F6E]">All data uploaded to IPFS is public by default since all you need <br> to
+            access
+            it is the file’s CID.
+            There are no permissions, user <br>accounts, or other security settings tied to IPFS CIDs.accounts, or other
+            security settings tied to IPFS CIDs.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="total max-w-[1440px] mx-auto px-6  ">
+      <div class="bg-[#E3E3E3] pt-[123px] pl-[40px] pb-9">
+        <div class="ml-10">
+          <h1 class="font-bold text-lg tracking-wide Poppins">How does Deupload work?
+          </h1>
+          <p class="text-[#5C5F6E] text-sm tracking-wide pt-4">Developers can start building in a matter of minutes -
+            allowing them to take <br>advantage of all the power
+            and openness of the decentralized web with none of the <br>infrastructure complexity. <br>Behind the scenes,
+            Deupload is backed by Sia network and makes content available <br> via IPFS leveraging the unique properties
+            of each network.</p>
+        </div>
+        <div class=" flex items-center gap-10 ">
+          <div class="ml-9">
+            <div class="bg-[#ECECFE] border-none rounded-lg p-5  ">
+              <h1 class="font-bold font-Poppins tracking-normal pb-2">About IPFS</h1>
+              <p class="text-[#5C5F6E] text-sm tracking-normal ">IPFS offers content addressing - enabling developers to
+                <br>create immutable links to their content, and
+                flexibility for <br>developers in how they’d like to retrieve their data.
+              </p>
+            </div>
+            <div class="bg-[#E0F7FA] border-none rounded-lg p-5 mt-4">
+              <h1 class="font-bold font-Poppins tracking-normal pb-2 ">About Sia</h1>
+              <p class="text-[#5C5F6E] text-sm tracking-normal">Sia offers persistent, decentralized storage -
+                guaranteeing
+                <br>the integrity of the underlying data
+                through a robust <br>economic model while also providing cryptographic proofs <br>for verifiability.
+              </p>
+            </div>
+          </div>
+          <div class=" mp[50px] ml-[100px] ">
+            <img class="w-[860px] h-[504px]" src="img/abiutipfs.png" alt="" srcset="">
+          </div>
+        </div>
+
+
+        <div class="total max-w-[1440px] mx-auto px-6 pl-[40px] ">
+          <div class="bggg">
+            <div class=" flex items-center gap-101 pt-70">
+              <div class="bg-[#651FFF] rounded-lg p-5 text-white">
+                <img class=" bg-[#ECECFE] p-3 rounded-lg w-[32] h-[24]" src="img/Vector(2).png" alt="">
+                <div>
+                  <h1 class="font-bold">Create an account</h1>
+                  <p class="text-sm">Create an Deupload account and <br> start uploading your files to IPFS.</p>
+                </div>
+              </div>
+              <div class="">
+                <h1 class="font-bold text-lg"> Get started in a <span class="text-[#651FFF]">few <br>steps</span> </h1>
+                <p class="text-[#838696] text-sm]"> We’re removes that complexity. Deupload offers a simple <br>
+                  interface
+                  that allows users and developers
+                  to take advantage of <br>the vast array of decentralized storage provided by the Sia <br> network with
+                  IPFS protocol.</p>
+              </div>
+            </div>
+
+            <div class="flex items-center ml-100 pt-20">
+              <div class="bg-[#651FFF] rounded-lg p-5 text-white mt-  ">
+                <img class=" bg-[#ECECFE] p-3 rounded-lg w-[32] h-[24] " src="img/upload 1.png" alt="">
+                <div>
+                  <h1 class="font-bold">Upload your files</h1>
+                  <p class="text-sm">Your data will be accessible on the <br> IPFS network where it is perpetually.</p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="flex items-center ml-200 pt-20">
+              <div class="bg-[#651FFF] rounded-lg p-5 text-white mt-4 ">
+                <img class=" bg-[#ECECFE] p-3 rounded-lg w-[32] h-[24] " src="img/fingerprint 1.png" alt="">
+                <div>
+                  <h1 class="font-bold">Retrieve IPFS link</h1>
+                  <p class="text-sm">Uses IPFS content identifiers, no one <br>can dispute what content your NFT.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ml-30 mt-41">
+          <div class="text-center Poppins">
+            <h1 class="text-[#0E0F10] font-bold text-lg Poppins">What is meant by the “Deuload platform”?</h1>
+            <p class="pt-4 text-[#838696] Poppins text-sm">Deupload is provide suite of APIs and services that make it
+              easy for developers and other users to interact
+              with data in a way that <br> is not tied to where the data is actually physically stored. It natively uses
+              decentralized data and identity protocols like IPFS <br> Filecoin, and UCAN that enable verifiable, data-
+              and
+              user-centric application architectures and workflows.</p>
+          </div>
+        </div>
+        <div>
+          <div class="flex gap-40 mt-10 bg-[#EDF0F4] p-9 ml-8 mr-10  rounded-lg">
+            <div class=" relative">
+              <img class="absolute" src="img/circle-question 1.png" alt="" srcset="">
+              <h1 class="pl-10 font-bold text-lg">What advantages does Deupload have <br>over traditional hosted storage
+                services?</h1>
+              <p class="pl-10 pt-3 text-[#5C5F6E] text-sm">Because Deupload uses decentralized data and identity
+                protocols
+                like IPFS and UCAN, data and identity are
+                referenced in an open way. Data is referenced using IPFS content identifiers that are unique to the
+                data,
+                making your data completely portable - accessible from anywhere broadcasting data to the IPFS network,
+                whether on a local or peer device, or uploaded to Deupload itself. Data is backed up on Filecoin, which
+                gives cryptographic proof that your data is physically being stored without needing to trust Deupload.
+              </p>
+              <h1 class="pl-10 pt-3 text-[#5C5F6E] text-sm">Learn more -></h1>
+            </div>
+            <div>
+              <img class="absolute" src="img/circle-question 1.png" alt="" srcset="">
+              <h1 class="pl-10 font-bold text-lg">What advantages does Deupload have <br> over other IPFS hosted
+                services?
+              </h1>
+              <p class="pl-10 pt-3 text-[#5C5F6E] text-sm">Deupload runs on Elastic IPFS, an open-source, cloud-native,
+                highly scalable implementation of IPFS. We
+                wrote it as the solution to address increasing adoption of Deupload, which previously used kubo and IPFS
+                Cluster. As a result, Deupload is designed to give strong performance and reliability regardless of how
+                much
+                data is being stored on it, meaning that you can rely on it as you and Deupload grow. And all data is
+                backed
+                up in Filecoin storage deals, which gives cryptographic proof that your data is physically being stored
+                without needing to trust Deupload.</p>
+              <h1 class="pl-10 pt-3 text-[#5C5F6E] text-sm">Learn more -></h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-[90px] mr-9 ml-10">
+          <div class="flex items-center justify-between">
+            <div class="Poppins">
+              <h1 class="text-[#000000] font-bold">Ready to get started?</h1>
+              <p class="text-[#838696] text-sm ">Store your data for NFT using our simple API. It’s fast, open, and it’s
+                free.
+              </p>
+            </div>
+            <div class="border-none] rounded-md p-3">
+              <button class="bg-[#2563eb] text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-[#1d4ed8] hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 hover:scale-105">Create an account</button>
+            </div>
+          </div>
+          <div class="flex  mt-10 shadow-lg hover:shadow-2xl transition-all duration-300">
+            <div class="border-none bg-[#E0F7FA] rounded-lg p-3 mr-10 text-[#00E5FF] Poppins">
+              <img class="border-none bg-[#00E5FF] rounded-lg p-3" src="img/code .png" alt="" srcset="">
+              <h1 class="font-bold">Are you artist?</h1>
+              <p class="text-sm mt-2">Keep everything that’s important to you and your family shareable and safe in one
+                place.</p>
+              <button type="button">See pricing</button>
+            </div>
+
+            <div class="flex border-none bg-[#ECECFE] rounded-sm ml-3 p-3">
+              <div class="Poppins text-[#651FFF]">
+                <img class="border-none bg-white rounded-lg p-3" src="img/code .png" alt="" srcset="">
+                <h1 class="font-bold">Are you developer?</h1>
+                <p class="text-sm mt-2">Keep everything that’s important to you and your family shareable and safe in
+                  one
+                  place.</p>
+                <button type="button">See pricing</button>
+              </div>
+              <div>
+                <img src="img/Coding_workshop_2_(2).png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<div class="ml-8 mr-8">
+  <div class="total max-w-[1440px] mx-auto px-6">
+    <footer class="bg-[#17274c] text-white font-[Poppins] py-16">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 ml-10">
+
+        <!-- What is Deupload -->
+        <div>
+          <h4 class="font-semibold text-lg mb-4">What is Deupload?</h4>
+          <p class="text-gray-300 text-sm leading-relaxed">
+            Deupload is a cloud storage service based on Blockchain and Web3 technology,
+            designed to help teams collaborate and file sharing in a completely private
+            way like never before.
+          </p>
+
+          <div class="flex items-center gap-4 mt-6">
+            <img src="img/GDPR compliant - GDPR Copy 5.png" alt="GDPR" class="h-7" />
+            <img src="img/norton-by-symantec-vector-logo 1.png" alt="Norton" class="h-7" />
+            <img src="img/h" alt="Stripe" class="h-7" />
+            <img src="img/Group 8.png" alt="PayPal" class="h-7" />
+          </div>
+        </div>
+
+        <!-- Products -->
+        <div>
+          <h4 class="font-semibold text-lg mb-4">Products</h4>
+          <ul class="space-y-2 text-gray-300 text-sm">
+            <li><a href="#" class="hover:text-white transition">Features</a></li>
+            <li><a href="#" class="hover:text-white transition">Solutions</a></li>
+            <li><a href="#" class="hover:text-white transition">Pricing</a></li>
+            <li><a href="#" class="hover:text-white transition">Token</a></li>
+            <li><a href="#" class="hover:text-white transition">Security</a></li>
+            <li><a href="#" class="hover:text-white transition">Comparison</a></li>
+          </ul>
+        </div>
+
+        <!-- Resource -->
+        <div>
+          <h4 class="font-semibold text-lg mb-4">Resource</h4>
+          <ul class="space-y-2 text-gray-300 text-sm">
+            <li><a href="#" class="hover:text-white transition">Whitepaper</a></li>
+            <li><a href="#" class="hover:text-white transition">Developer</a></li>
+            <li><a href="#" class="hover:text-white transition">Brand Kits</a></li>
+            <li><a href="#" class="hover:text-white transition">Compliance</a></li>
+            <li><a href="#" class="hover:text-white transition">Privacy Policy</a></li>
+            <li><a href="#" class="hover:text-white transition">Terms of service</a></li>
+          </ul>
+        </div>
+
+        <!-- Community -->
+        <div>
+          <h4 class="font-semibold text-lg mb-4">Community</h4>
+          <ul class="space-y-2 text-gray-300 text-sm">
+            <li><a href="" class="hover:text-white transition">Guide</a></li>
+            <li><a href="#" class="hover:text-white transition">Blog</a></li>
+            <li><a href="#" class="hover:text-white transition">FAQs</a></li>
+            <li><a href="#" class="hover:text-white transition">Forum</a></li>
+            <li><a href="#" class="hover:text-white transition">Help center</a></li>
+            <li><a href="#" class="hover:text-white transition">Support desk</a></li>
+          </ul>
+
+          <div class="flex items-center gap-4 mt-6">
+            <a href="#"><img src="img/fb.png" alt="Facebook" class="w-6 hover:scale-110 transition" /></a>
+            <a href="#"><img src="img/twiter.png" alt="Twitter" class="w-6 hover:scale-110 transition" /></a>
+            <a href="#"><img src="img/Youtube_black 1.png" alt="YouTube" class="w-6 hover:scale-110 transition" /></a>
+            <a href="#"><img src="img/m.png" alt="Medium" class="w-6 hover:scale-110 transition" /></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="border-t border-gray-600 mt-12 pt-4 text-center text-sm text-gray-400">
+        © 2022 Deupload. Powered by Conikal LLC
+      </div>
+    </footer>
+  </div>
+</html>
